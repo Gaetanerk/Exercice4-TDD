@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b709fa32-91cf-4cf1-b006-4b64bb93e0c6" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/exception/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercice4/RechercheVille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Exercice4/RechercheVille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Exercice4/RechercheVilleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Exercice4/RechercheVilleTest.java" afterDir="false" />
     </list>
@@ -35,11 +34,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1729153651" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1729153650" />
+                    <option name="lastUsedInstant" value="1729155632" />
                   </RecentBranch>
                 </list>
               </option>
@@ -94,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729152822487</updated>
-      <workItem from="1729152823564" duration="2060000" />
+      <workItem from="1729152823564" duration="2174000" />
     </task>
     <servers />
   </component>
