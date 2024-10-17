@@ -22,4 +22,11 @@ public class RechercheVilleTest {
         List<String> result = rechercheVille.rechercher("Va");
         assertIterableEquals(List.of("Valence", "Vancouver"), result);
     }
+
+    @Test
+    public void testRechercheInsensibleCasse() throws ExecutionControl.NotImplementedException {
+        RechercheVille rechercheVille = new RechercheVille();
+        List<String> result = rechercheVille.rechercher("va");
+        assertIterableEquals(List.of("Valence", "Vancouver"), result);
+    }
 }
