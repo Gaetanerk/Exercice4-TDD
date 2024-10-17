@@ -36,4 +36,11 @@ public class RechercheVilleTest {
         List<String> result = rechercheVille.rechercher("ape");
         assertIterableEquals(List.of("Budapest"), result);
     }
+
+    @Test
+    public void testRechercheAsterisque() throws ExecutionControl.NotImplementedException {
+        RechercheVille rechercheVille = new RechercheVille();
+        List<String> result = rechercheVille.rechercher("*");
+        assertIterableEquals(rechercheVille.getVilles(), result);
+    }
 }
