@@ -29,4 +29,11 @@ public class RechercheVilleTest {
         List<String> result = rechercheVille.rechercher("va");
         assertIterableEquals(List.of("Valence", "Vancouver"), result);
     }
+
+    @Test
+    public void testRecherchePartieNom() throws ExecutionControl.NotImplementedException {
+        RechercheVille rechercheVille = new RechercheVille();
+        List<String> result = rechercheVille.rechercher("ape");
+        assertIterableEquals(List.of("Budapest"), result);
+    }
 }
